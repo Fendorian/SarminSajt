@@ -1,0 +1,89 @@
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+.navbar .nav-item.active {
+  border-left: white 3px solid;
+}
+.nav-link:hover {
+  background-color: #cd5b45;
+}
+.carousel-item {
+  height: 500px;
+}
+.carousel-image-1 {
+  background: no-repeat center center scroll;
+  background-image: url("../img/Bobika.jpg");
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: no-repeat center center scroll;
+  background-image: url("../img/Zaki.jpg");
+  background-size: cover;
+}
+.carousel-image-3 {
+  background: url("../img/Radnom\ lik.jpg");
+  background-size: cover;
+}
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("/img/slika.png");
+  background-attachment: fixed;
+  background-position: 0 -300px;
+  text-align: center;
+  color: white;
+}
+#video-play a {
+  color: #fff;
+}
+#page-header {
+  height: 200px;
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+#main-footer {
+  background: coral;
+  color: #fff;
+}
+.logoSlika {
+  height: 5rem;
+  width: 9rem;
+}
+#clients .items {
+  display: flex;
+}
+#clients .items a {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+.iconyt {
+  color: red;
+}
+.iconins {
+  color: pink;
+}
+.borderinput {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.contact {
+  font-size: 27px;
+  margin: 10px 10px;
+}
+.followup {
+  font-size: 40px;
+}
+.contacttel {
+  margin-left: 1000px;
+}
+.navbar {
+  background-color: coral;
+}

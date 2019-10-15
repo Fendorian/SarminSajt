@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <link rel="stylesheet" href="/css/css.css">
+    <title>Karikature Sarmagedon</title>
+</head>
+
+<body id='home'>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark  fixed-top" id='main-nav'>
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img class="logoSlika" src="/img/12742255_197264183964280_9020841126263391067_n.jpg" alt="">
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#contact" class="nav-link">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Carousel -->
+    <section id="showcase">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                            <h1 class="display-3 borderinput">Sportska dogadjanja</h1>
+                            <p class="lead borderinput">Sva nova sportka dogadjanja racunaju trejdove, nove ugovore i
+                                promene u
+                                klubovima su obelezene nasim radovima.</p>
+                            <a href="#" class="btn btn-danger btn-lg">Pogledajte vise</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block mb-5">
+                            <h1 class="display-3 borderinput">Rodjendani, slavlja...</h1>
+                            <p class="lead borderinput">Svako lepo dogadjadje ulepsavamo lepom uspomenom sa
+                                karakteristicnim i
+                                neobicnim karikaturama.</p>
+                            <a href="#" class="btn btn-primary btn-lg">Pogledajte vise</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                            <h1 class="display-3 borderinput borderleft">I jos svasta po nesto</h1>
+                            <p class="lead borderinput borderleft">Sve je stvar dogovora, kontaktirajte nas i mi cemo se
+                                dogovoriti
+                                oko svega.
+                            </p>
+                            <a href="#" class="btn btn-success btn-lg">Pogledajte vise</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+    <!-- Explore -->
+    <section id="explore-head-section">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-5">
+                    <div class="display-4">Karikature i Animacije</div>
+                    <p class="lead">Sve karikature mozete pogledati dole u galeriji dole</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Video Presentation -->
+    <section id="video-play">
+        <div class="dark-overlay">
+            <div class="row">
+                <div class="col">
+                    <div class="container p-5">
+                        <a href="#" class="video"
+                            data-video="https://www.youtube.com/embed/VQv--S5HWnk?rel=0&autoplay=1" data-toggle="modal"
+                            data-target="#videoModal">
+                            <i class="fas fa-play fa-3x"></i>
+                        </a>
+                        <h1>Vidite kako mi to radimo</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h1 id='gallery' class="text-center">Galerija radova</h1>
+            <p class="text-center">Pogledajte nase radove</p>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="/img/Zaki.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+                        data-width="560">
+                        <img src="/img/Zaki.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="/img/Bobika.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+                        data-width="560">
+                        <img src="/img/Bobika.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="/img/Radnom lik.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+                        data-width="560">
+                        <img src="/img/Radnom lik.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="/img/Zaki.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+                        data-width="560">
+                        <img src="/img/Zaki.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="/img/Zaki.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+                        data-width="560">
+                        <img src="/img/Zaki.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact us -->
+    <section id="clients" class="py-1">
+        <div class="container">
+            <h2 class="text-center m-heading">
+                <span id='contact' class="text-primary followup">Zapratite nas</span> i na
+            </h2>
+            <div class="items py-1 align-content-between">
+                <a href="https://www.facebook.com/KarikatureSarmagedon/" target="_blank"><i
+                        class="iconfb fab fa-facebook fa-10x"></i></a>
+                <a href="https://www.instagram.com/karikaturesarmagedon/" target="_blank"><i
+                        class="iconins fab fa-instagram fa-10x"></i></a>
+                <a href="https://www.youtube.com/channel/UCtNDS_Tvu4K9XjKWWlzEzvg" target="_blank"><i
+                        class="iconyt fab fa-youtube fa-10x"></i></a>
+                <a href="https://twitter.com/ksarmagedon?lang=en" target="_blank"><i
+                        class="icontw fab fa-twitter fa-10x"></i></a>
+
+            </div>
+        </div>
+    </section>
+    <h1 class="text-center">Kontaktirajte nas</h1>
+    <div class="row">
+        <div class="col contact">Putem Emaila: Sarmagedon@yahoo.com</div>
+        <div class="col contact contacttel">Putem telefona: 062 163 63 60</div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright 2019
+                        Karikature Sarmagedon
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a class=scrollup><i class="fa fa-chevron-up"></i></a>
+    </div>
+    <!-- Video modal -->
+    <div class="modal fade" id="videoModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                    <iframe src="" frameborder="0" height="600" width="100%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <script>
+        // Tacna godina
+        $('#year').text(new Date().getFullYear());
+        // Sliajder da radi
+        $('.carousel').carousel({
+            interval: 6000,
+            pause: 'hover'
+        });
+        // Lighbox da klikne
+        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+        //Video 
+        $(function () {
+            // Auto play modal video
+            $(".video").click(function () {
+                var theModal = $(this).data("target"),
+                    videoSRC = $(this).attr("data-video"),
+                    videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+                $(theModal + ' iframe').attr('src', videoSRCauto);
+                $(theModal + ' button.close').click(function () {
+                    $(theModal + ' iframe').attr('src', videoSRC);
+                });
+            });
+        });
+    </script>
+    <script>
+
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("#main-nav a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
+</body>
+
+</html>
